@@ -1,1 +1,0 @@
-The link for the job is: https://jobs.bg/job/5965570, the skills required are:['Python', 'Flask', 'Django', 'Docker']

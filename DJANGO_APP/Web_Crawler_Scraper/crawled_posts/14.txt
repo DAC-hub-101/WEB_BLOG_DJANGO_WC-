@@ -1,1 +1,0 @@
-The link for the job is: https://jobs.bg/job/5944313, the skills required are:['JavaScript', 'Angular', 'jQuery', 'HTML/CSS', 'Vue.js', 'React']
