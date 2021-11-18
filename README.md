@@ -1,2 +1,11 @@
-# WEB_BLOG_DJANGO_WC
-This Project is an personal block were i publish articles written by me with the help of a web scraper. It will be my final Project for my Python course in NETIT
+#Idea
+* The general idea of this web application is to get people with interest together.
+* They can chat and get news on everything new happening with python.
+* This Project is a Python blog were i publish Python news and articles.
+* There is a Web Scraper for scraping jobs.bg for python related jobs.
+#Before running the application
+Install all modules(packages needed - All required modules for app can be found in "requirements.txt") Database schemas included --> Database schema is in core/settings.py
+#Get help:
+test@gmail.com
+#Creator and maintainer:
+Nikola Kirov
