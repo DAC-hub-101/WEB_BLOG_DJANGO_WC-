@@ -1,8 +1,10 @@
 import os
+import csv
+
 def Scraping(jobs):
-    cwd = os.getcwd()
-    count = 0
-    for key, value in jobs.items():
-        with open(f'{cwd}/crawled_posts/{count}\'th_job.txt', "w") as f:
-                f.write(f"The link for the job is: {key}, the skills required are:{value}\n")
-                count+=1
+    header = ['links', 'requests']
+    with open("jobs.csv", "w") as f:
+        writer = csv.writer(f, delimiter=',',lineterminator='\n',)
+        writer.writerow(header)
+        for key, value in jobs.items():
+            writer.writerow([key, value])

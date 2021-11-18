@@ -1,4 +1,4 @@
-"""DJANGO_APP URL Configuration
+"""Core URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -13,12 +13,16 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+import view as view
 from django.contrib import admin
 from django.contrib.auth import views as auth_views
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from users import views as user_views
+
+from job_posts import views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -47,6 +51,8 @@ urlpatterns = [
          ),
          name='password_reset_complete'),
     path('', include('blog.urls')),
+    path('job_postings', views.all_job_postings, name="list-jobs"),
+    path('search_jobs', views.search_jobs, name="search-jobs")
 ]
 
 

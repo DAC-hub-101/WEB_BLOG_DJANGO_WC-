@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-number = int(input("Please the number of skills you want to search for: "))
+number = int(input("Please the number of skills you want to search for (Example: 1): "))
 
 # Below line read inputs from user using map() function
 language = list(map(str, input("\nEnter your skills (Example: Linux SQL) : ").lower().strip().split()))[:number]
@@ -32,9 +32,7 @@ def get_link():
                 skills = job.find("a", class_="card__title mdc-typography mdc-typography--headline6 text-overflow")
                 job_links.append("https://jobs.bg/" + skills["href"])
 
-    global skillz
     skillz = {}
-    desc = []
 
     for linkz in job_links:
         page = requests.get(linkz)
@@ -42,14 +40,23 @@ def get_link():
         requirements = bs_page.select('table ~ ul > li > table tr td')
         desc = []
 
+        requirements_list = []
         for req in requirements:
-            r = req.get_text().lower()
-            if r == '':
+            requirement = req.get_text().lower()
+            if requirement == '':
                 continue
-            elif r in language[:number]:
-                desc.append(r)
+            else:
+                requirements_list.append(requirement)
+
+        for req in requirements_list:
+            if req in language:
+                if requirements_list in desc:
+                    continue
+                else:
+                    desc.extend(requirements_list)  # I use extend so i don't append "[ ]" to my list
             else:
                 continue
+
         if desc == []:
             continue
         else:
