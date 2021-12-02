@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-19 01:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\DJANGO_APP\blog\templates\blog\base.html:26
+msgid "Django Blog - {{ title }}"
+msgstr ""
+
+#: .\DJANGO_APP\blog\templates\blog\base.html:28
+msgid "Django Blog"
+msgstr ""
+
+#: .\DJANGO_APP\blog\templates\blog\base.html:43
+msgid "Home"
+msgstr ""
+
+#: .\DJANGO_APP\blog\templates\blog\base.html:44
+msgid "About"
+msgstr ""
+
+#: .\DJANGO_APP\blog\templates\blog\base.html:45
+msgid "Python Jobs"
+msgstr ""
+
+#: .\DJANGO_APP\blog\templates\blog\base.html:56
+msgid "Search"
+msgstr ""
+
+#: .\DJANGO_APP\blog\templates\blog\base.html:59
+msgid "New Post"
+msgstr ""
+
+#: .\DJANGO_APP\blog\templates\blog\base.html:60
+msgid "Profile"
+msgstr ""
+
+#: .\DJANGO_APP\blog\templates\blog\base.html:61
+msgid "Logout"
+msgstr ""
+
+#: .\DJANGO_APP\blog\templates\blog\base.html:64
+msgid "Languages"
+msgstr ""
+
+#: .\DJANGO_APP\blog\templates\blog\base.html:72
+msgid "Login"
+msgstr ""
+
+#: .\DJANGO_APP\blog\templates\blog\base.html:99
+msgid "Latest Posts"
+msgstr ""
+
+#: .\DJANGO_APP\blog\templates\blog\base.html:100
+msgid "Announcements"
+msgstr ""
+
+#: .\DJANGO_APP\blog\templates\blog\base.html:101
+msgid "Calendars"
+msgstr ""
+
+#: .\DJANGO_APP\blog\templates\blog\base.html:102
+msgid "etc."
+msgstr ""
+
+#: .\DJANGO_APP\blog\templates\blog\base.html:120
+msgid "About Us"
+msgstr ""
