@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import Job_postings
-    # Job_requirements
+from django.utils.translation import gettext as _
 from django.db import connection
 
 # Create your views here.
@@ -12,7 +12,7 @@ def all_job_postings(request):
 
 def search_jobs(request):
     if request.method == "POST":
-        searched = request.POST['searched']
+        searched = _(request.POST['searched'])
         jobs = Job_postings.objects.filter(requirements__contains=searched.lower())
         return render(request, 'jobs/search_jobs.html',
                   {'searched': searched,

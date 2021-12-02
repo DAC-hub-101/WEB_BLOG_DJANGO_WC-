@@ -1,9 +1,28 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
+from django.utils.translation import LANGUAGE_SESSION_KEY
 
-# CREATING VIEWS
+from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
+from django.contrib.auth import login
+from django.contrib.auth import views as auth_views
+from django.http import HttpResponseRedirect, HttpResponse
+from django.utils import translation
+from urllib3 import request
+
+
+
+def selectlanguage(request):
+    if request.method == 'POST':
+        cur_language = translation.get_language()
+        lasturl = request.META.get('HTTP_REFERER')
+        lang = request.POST['language']
+        translation.activate(lang)
+        request.session[translation.LANGUAGE_SESSION_KEY] = lang
+        # return HttpResponse(lang)
+        return HttpResponseRedirect("/" + lang)
+
+
 
 def register(request):
     if request.method == 'POST':
@@ -41,4 +60,3 @@ def profile(request):
     }
 
     return render(request, 'users/profile.html', context)
-

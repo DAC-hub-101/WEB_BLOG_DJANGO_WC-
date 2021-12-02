@@ -1,6 +1,9 @@
-from django.shortcuts import render, get_object_or_404
+from django.http import HttpResponseRedirect, HttpResponseForbidden
+from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.models import User
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
+from django.urls import reverse
+from django.views import View
 from django.views.generic import (
     ListView,
     DetailView,
@@ -8,11 +11,10 @@ from django.views.generic import (
     UpdateView,
     DeleteView
 )
-from .models import Post
-
-def home(request):
-    context = {'posts': Post.objects.all()}
-    return render(request, 'blog/home.html', context)
+from .models import Post, Comments
+from .forms import CommentForm
+from django.views.generic import FormView
+from django.views.generic.detail import SingleObjectMixin
 
 class PostListView(ListView):
     model = Post
@@ -34,6 +36,65 @@ class UserPostListView(ListView):
 
 class PostDetailView(DetailView):
     model = Post
+
+    def get_context_data(self, **kwargs):
+        context = {}
+        if self.object:
+            context['object'] = self.object
+            context[
+                'comments'] = Comments.objects.all()  # modify this queryset according to how you want to display comments
+
+        context.update(kwargs)
+        return super().get_context_data(**context)
+
+class Commentform(SingleObjectMixin, FormView):
+        template_name = 'post-detail'
+        form_class = CommentForm
+        model = Comments
+
+        def post(self, request, *args, **kwargs):
+            # if not request.user.is_authenticated():
+            #     return HttpResponseForbidden()
+            self.object = self.get_object()
+            return super(Commentform, self).post(request, *args, **kwargs)
+
+        def get_success_url(self):
+            return reverse('post-detail', kwargs={'pk': self.object.pk})
+
+class PostCommentDetail(View):
+
+    def get(self, request, *args, **kwargs):
+        view = PostDetailView.as_view()
+        return view(request, *args, **kwargs)
+
+    def post(self, request, *args, **kwargs):
+        view = Commentform.as_view()
+        return view(request, *args, **kwargs)
+
+
+
+
+    # def get_context_data(self, **kwargs):
+    #     context = {}
+    #     if self.object:
+    #         context['object'] = self.object
+    #         context[
+    #             'comments'] = Comments.objects.all()  # modify this queryset according to how you want to display comments
+    #
+    #     context.update(kwargs)
+    #     return super().get_context_data(**context)
+    #
+    # def post(self, request, *args, **kwargs):
+    #     if request.method == 'POST':
+    #         form = CommentForm(request.POST)
+    #         if form.is_valid():
+    #                 form.save(commit=False)
+    #                 return super().form_valid(form)
+    #                 # if a GET (or any other method) we'll create a blank form
+    #         else:
+    #                 form = CommentForm
+
+
 
 
 class PostCreateView(LoginRequiredMixin, CreateView):
@@ -71,4 +132,10 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 def about(request):
     return render(request, 'blog/about.html', {'title': 'About'})
 
+
+
+# Using translation and a session
+def home(request):
+    context = {'posts': Post.objects.all()}
+    return render(request, 'blog/home.html', context)
 

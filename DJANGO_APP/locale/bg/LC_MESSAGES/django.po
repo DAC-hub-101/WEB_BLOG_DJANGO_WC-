@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 01:16+0200\n"
+"POT-Creation-Date: 2021-11-19 15:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,66 +17,102 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-#: .\DJANGO_APP\blog\templates\blog\base.html:26
-msgid "Django Blog - {{ title }}"
-msgstr ""
 
-#: .\DJANGO_APP\blog\templates\blog\base.html:28
+#: .\Core\urls.py:33
+msgid "admin/"
+msgstr "Администратор/"
+
+#: .\blog\templates\blog\base.html:28
 msgid "Django Blog"
-msgstr ""
+msgstr "Джанго Блог"
 
-#: .\DJANGO_APP\blog\templates\blog\base.html:43
+#: .\blog\templates\blog\base.html:43
 msgid "Home"
-msgstr ""
+msgstr "Вкъщи"
 
-#: .\DJANGO_APP\blog\templates\blog\base.html:44
+#: .\blog\templates\blog\base.html:44
 msgid "About"
-msgstr ""
+msgstr "За нас"
 
-#: .\DJANGO_APP\blog\templates\blog\base.html:45
+#: .\blog\templates\blog\base.html:45
 msgid "Python Jobs"
-msgstr ""
+msgstr "Работа с Python"
 
-#: .\DJANGO_APP\blog\templates\blog\base.html:56
+#: .\blog\templates\blog\base.html:56
 msgid "Search"
-msgstr ""
+msgstr "Търсене"
 
-#: .\DJANGO_APP\blog\templates\blog\base.html:59
+#: .\blog\templates\blog\base.html:59
 msgid "New Post"
-msgstr ""
+msgstr "Нови постове"
 
-#: .\DJANGO_APP\blog\templates\blog\base.html:60
+#: .\blog\templates\blog\base.html:60
 msgid "Profile"
-msgstr ""
+msgstr "Профил"
 
-#: .\DJANGO_APP\blog\templates\blog\base.html:61
+#: .\blog\templates\blog\base.html:61
 msgid "Logout"
-msgstr ""
+msgstr "Излизане"
 
-#: .\DJANGO_APP\blog\templates\blog\base.html:64
+#: .\blog\templates\blog\base.html:79
 msgid "Languages"
-msgstr ""
+msgstr "Езици"
 
-#: .\DJANGO_APP\blog\templates\blog\base.html:72
+#: .\blog\templates\blog\base.html:93
 msgid "Login"
-msgstr ""
+msgstr "Вход"
 
-#: .\DJANGO_APP\blog\templates\blog\base.html:99
+#: .\blog\templates\blog\base.html:94
+msgid "Register"
+msgstr "Регистриране"
+
+#: .\blog\templates\blog\base.html:120
 msgid "Latest Posts"
-msgstr ""
+msgstr "Нови постове"
 
-#: .\DJANGO_APP\blog\templates\blog\base.html:100
+#: .\blog\templates\blog\base.html:121
 msgid "Announcements"
-msgstr ""
+msgstr "Новини"
 
-#: .\DJANGO_APP\blog\templates\blog\base.html:101
+#: .\blog\templates\blog\base.html:122
 msgid "Calendars"
-msgstr ""
+msgstr "Календари"
 
-#: .\DJANGO_APP\blog\templates\blog\base.html:102
+#: .\blog\templates\blog\base.html:123
 msgid "etc."
-msgstr ""
+msgstr "други"
 
-#: .\DJANGO_APP\blog\templates\blog\base.html:120
+#: .\blog\templates\blog\base.html:141
 msgid "About Us"
-msgstr ""
+msgstr "За нас"
+
+#: .\blog\views.py:79
+#, fuzzy
+#| msgid "Home"
+msgid "Homepage"
+msgstr "Вкъщи"
+
+#: .\job_posts\templates\jobs\job_postings.html:6
+msgid "Jobs"
+msgstr "Работни места"
+
+#: .\job_posts\templates\jobs\search_jobs.html:8
+#, fuzzy
+#| msgid "You Searched For "
+msgid "You Searched For {{ searched }}"
+msgstr "Вие търсихте"
+
+#: .\job_posts\templates\jobs\search_jobs.html:13
+msgid "Job Link"
+msgstr "Леб адреси"
+
+#: .\job_posts\templates\jobs\search_jobs.html:14
+msgid "Job Requirements"
+msgstr "Изисклвания"
+
+#: .\job_posts\templates\jobs\search_jobs.html:30
+msgid "Hey! You forgot To Search For a Job..."
+msgstr "Забравихте да въведете текс за търсене..."
+
+#~ msgid "Django Blog - {{ title }}"
+#~ msgstr "Заглавие"

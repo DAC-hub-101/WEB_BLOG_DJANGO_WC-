@@ -1,0 +1,24 @@
+.about_us_info {
+    margin: 0;
+    padding: .3rem;
+    background-color: light-grey;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.about_us_info > h1,
+.main_goals {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.main_goals{
+    background: right/contain content-box border-box no-repeat
+
+}
+
+.main_goals > h2,
+.main_goals> p {
+    margin: .2rem;
+    font-size: 1rem;
+}

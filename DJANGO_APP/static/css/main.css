@@ -22,6 +22,7 @@ ul {
 
 .site-header .navbar-nav .nav-link:hover {
   color: #ffffff;
+
 }
 
 .site-header .navbar-nav .nav-link.active {
@@ -35,6 +36,51 @@ ul {
   border-radius: 3px;
   margin-bottom: 20px;
 }
+
+/* Dropdown Button*/
+.dropbtn {
+  background-color: #5f788a;
+  color: white;
+  padding: 8.5px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #778899;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #778899;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ffffff}
+
+/* Show the dropdown menu (used JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
 
 .article-title {
   color: #444444;
@@ -83,7 +129,7 @@ a.article-title:hover {
   font-size: 2.5rem;
 }
 
-#page-container {
+.page-container {
     position: relative;
     min-height: 100vh;
 }
@@ -104,14 +150,15 @@ a.article-title:hover {
 
 .footer-content{
     display: flex;
-    align-items: center;
+    align-items: ;
     justify-content: center;
     text-align: center;
+
 
 }
 
 .footer- content h3{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
@@ -122,6 +169,7 @@ a.article-title:hover {
     margin: 10px  auto;
     line-height:28px;
     font-size: 14px;
+
 }
 .socials{
     list-style: none;
@@ -147,11 +195,13 @@ a.article-title:hover {
 }
 
 .footer-bottom{
-    background: #000;
+    background:#383838;
     width: 100vw;
+    height: 20vw;
     padding: 20px 0;
-    text-align: center;
+    text-align: flex-start;
 }
+
 .footer-bottom p{
     font-size: 14px;
     word-spacing: 2px;
@@ -167,3 +217,31 @@ a.article-title:hover {
     width: auto;
     max-height: 52px;
     max-width: 150px;
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}

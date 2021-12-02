@@ -1,5 +1,7 @@
 {% extends "blog/base.html" %}
 {% block content %}
+{% load crispy_forms_tags %}
+
         <article class="media content-section">
           <img class ="rounded-circle article-img" src="{{ object.author.profile.image.url }}">
           <div class="media-body">
@@ -15,4 +17,59 @@
             <p class="article-content">{{ object.content }}</p>
           </div>
         </article>
+   <!--Comments-->
+        <div id="comments">
+
+                <h3>{{ comments.total }}</h3>
+
+                <ol class="commentlist">
+                    {% for comment in comments %}
+                    <li class="depth-1">
+
+                        <div class="avatar">
+                            <img width="50" height="50" alt=""
+                                src="{{ comment.user.profile.image.url }}"
+                                class="avatar">
+                        </div>
+
+                        <div class="comment-content">
+
+                            <div class="comment-info">
+                                <cite>{{ comment.user }}</cite>
+
+                                <div class="comment-meta">
+                                    <time datetime="2014-07-12T23:05"
+                                        class="comment-time">{{ comment.date_added|date:"F d, Y" }}</time>
+
+                                </div>
+                            </div>
+
+                            <div class="comment-text">
+                                <p>{{ comment.content }}</p>
+                            </div>
+
+                        </div>
+
+                    </li>
+                    {% endfor %}
+                </ol> <!-- /commentlist -->
+
+
+                <!-- respond -->
+                <div class="respond">
+
+                    <h3>Leave a Comment</h3>
+
+                    <!-- form -->
+                    <form action="" method="POST">
+                        {% csrf_token %}
+
+                                {{ form|crispy }}
+                                <button class="submit full-width" type="submit">Add Comment</button>
+
+                    </form> <!-- /contactForm -->
+
+                </div> <!-- /respond -->
+
+            </div> <!-- /comments -->
 {% endblock content %}

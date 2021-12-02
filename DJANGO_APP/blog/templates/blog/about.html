@@ -1,5 +1,28 @@
 {% extends "blog/base.html" %}
 {% block content %}
-    <h1>About Page</h1>
+{% load static %}
+<!-- CSS Path -->
+<link rel="stylesheet" href="{% static 'css/about_us.css' %}">
+
+    <title>About Us</title>
+
+    <article class="about_us_info">
+      <h2>Goals</h2>
+      <section class="main_goals">
+        <h3>Deliver the most relevant and reliable information available</h3>
+        <div>To help you stay in touch with Python updates news anc jobs offered in Bulgaria.
+           We are very passionate about Computer science and Python in particular. And think
+           everyone should have the opportunity to learn programming if he or she chooses to.
+           That's why we have created this website for people to post articles, guides and news
+           about Python and related frameworks and library's.</div>
+      </section>
+      <footer>
+        <p>
+          Posted on
+          <time datetime="2021-19-15 19:00">October 15</time>
+          by Staff.
+        </p>
+      </footer>
+    </article>
 {% endblock content %}
 

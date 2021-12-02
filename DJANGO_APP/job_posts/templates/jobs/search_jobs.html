@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 {% extends 'blog/base.html' %}
-
+{% load i18n %}
 
 {% block content %}
     <center>
         {% if searched %}
-            <h1>You Searched For {{ searched }}</h1><br/>
+            <h1>{% trans "You Searched For {{ searched }}" %}</h1><br/>
 
                 <table class="content-table">
                     <thead>
                         <tr>
-                            <th>Job Link</th>
-                            <th>Job Requirements</th>
+                            <th>{% trans "Job Link" %}</th>
+                            <th>{% trans "Job Requirements" %}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -27,7 +27,7 @@
                 </table>
 
         {% else %}
-            <h1> Hey! You forgot To Search For a Job...</h1>
+            <h1> {% trans "Hey! You forgot To Search For a Job..." %}</h1>
 
         {% endif %}
 
