@@ -1,49 +1,49 @@
 links,requests
-https://jobs.bg/job/6000908,"['cisco', 'linux']"
-https://jobs.bg/job/6000766,"['shell scripts', 'mysql', 'sql', 'ms sql', 'switching', 'routing', 'firewall/waf', 'docker', 'linux', 'windows', 'active directory', 'vmware', 'nginx', 'iis', 'ansible', 'terraform']"
-https://jobs.bg/job/6000761,"['sql', 'ms sql', 'linux', 'windows']"
-https://jobs.bg/job/6000537,"['python', 'postgresql', 'sql']"
-https://jobs.bg/job/5999522,"['c#', 'asp.net', 'entity framework', 'soapui', 'sql', 'ms sql', 'postgresql', 'mysql', 'mongodb', 'nosql', 'redis', 'docker', 'kubernetes', 'nginx', 'linux', 'azure', 'aws']"
-https://jobs.bg/job/6000369,"['bi', 'python', 'power bi', 'data visualization', 'tableau']"
-https://jobs.bg/job/5999900,"['python', 'sql']"
-https://jobs.bg/job/5999751,"['shell scripts', 'python', 'groovy', 'jenkins', 'azure', 'aws', 'linux', 'terraform', 'vmware', 'ansible', 'shell scripts', 'python', 'groovy', 'jenkins', 'azure', 'aws', 'linux', 'terraform', 'vmware', 'ansible']"
-https://jobs.bg/job/5999746,"['shell scripts', 'python', 'groovy', 'jenkins', 'azure', 'aws', 'linux', 'terraform', 'vmware', 'ansible', 'shell scripts', 'python', 'groovy', 'jenkins', 'azure', 'aws', 'linux', 'terraform', 'vmware', 'ansible']"
-https://jobs.bg/job/5999658,"['python', 'shell scripts', 'aws', 'terraform']"
-https://jobs.bg/job/5986780,"['windows', 'linux']"
-https://jobs.bg/job/5999124,"['crm', 'swift', 'groovy', 'python', 'shell scripts', 'docker', 'jenkins', 'grafana', 'elasticsearch', 'nosql', 'gcp', 'terraform', 'kubernetes']"
-https://jobs.bg/job/5979875,"['pci dss', 'aws', 'linux', 'windows', 'puppet', 'chef', 'ansible', 'terraform']"
-https://jobs.bg/job/5979868,"['php', 'shell scripts', 'python', 'drupal', 'symfony', 'laravel', 'magento', 'nosql', 'mongodb', 'redis', 'elasticsearch', 'jenkins', 'docker', 'linux', 'kafka', 'php', 'shell scripts', 'python', 'drupal', 'symfony', 'laravel', 'magento', 'nosql', 'mongodb', 'redis', 'elasticsearch', 'jenkins', 'docker', 'linux', 'kafka']"
-https://jobs.bg/job/5998939,"['php', 'python', 'shell scripts', 'linux', 'php', 'python', 'shell scripts', 'linux']"
-https://jobs.bg/job/5998936,"['java', 'javascript', 'python', 'shell scripts', 'jenkins', 'sap', 'azure', 'terraform', 'ansible', 'aws', 'gcp', 'kubernetes']"
-https://jobs.bg/job/5998706,"['java', 'python', 'golang', 'vue.js', 'sql', 'hadoop', 'spark', 'kafka', 'linux', 'java', 'python', 'golang', 'vue.js', 'sql', 'hadoop', 'spark', 'kafka', 'linux']"
-https://jobs.bg/job/5998701,"['php', 'javascript', 'python', 'shell scripts', 'c/c++', 'java', 'sql', 'redis', 'nosql', 'docker', 'linux', 'php', 'javascript', 'python', 'shell scripts', 'c/c++', 'java', 'sql', 'redis', 'nosql', 'docker', 'linux']"
-https://jobs.bg/job/5998637,"['python', 'shell scripts', 'perl', 'javascript', 'angular', 'mysql', 'sql', 'mongodb', 'nosql', 'linux', 'aws', 'python', 'shell scripts', 'perl', 'javascript', 'angular', 'mysql', 'sql', 'mongodb', 'nosql', 'linux', 'aws']"
-https://jobs.bg/job/5998578,"['shell scripts', 'python', 'php', 'java', 'postgresql', 'sql', 'grafana', 'docker', 'linux', 'kubernetes', 'tomcat', 'shell scripts', 'python', 'php', 'java', 'postgresql', 'sql', 'grafana', 'docker', 'linux', 'kubernetes', 'tomcat']"
-https://jobs.bg/job/5998395,"['shell scripts', 'python', 'jenkins', 'vmware', 'aws', 'gcp', 'ansible', 'terraform']"
-https://jobs.bg/job/5998525,"['bi', 'python', 'data visualization', 'sql', 'tableau', 'routing']"
-https://jobs.bg/job/5998196,"['data visualization', 'python', 'power bi', 'sql', 'tableau']"
-https://jobs.bg/job/5981679,"['android', 'ios', 'azure', 'linux', 'macos', 'windows', 'active directory']"
-https://jobs.bg/job/5998064,"['php', 'javascript', 'cakephp', 'html/css', 'mysql', 'linux']"
-https://jobs.bg/job/5997762,"['java', 'python', 'node.js', 'groovy', '.net', 'spring', 'mysql', 'sql', 'cassandra', 'nosql', 'grafana', 'kafka']"
-https://jobs.bg/job/5997681,"['python', 'javascript']"
-https://jobs.bg/job/5997722,['linux']
-https://jobs.bg/job/5975079,"['python', 'c/c++', 'pytorch', 'docker', 'jenkins', 'kubernetes']"
-https://jobs.bg/job/5997491,"['jenkins', 'docker', 'aws', 'linux', 'vmware', 'kubernetes']"
-https://jobs.bg/job/5997485,"['python', 'sql', 'jira', 'jenkins']"
-https://jobs.bg/job/5997444,"['python', 'java', 'javascript', 'typescript', 'django', 'flask', 'angular', 'vue.js', 'react', 'sql', 'nosql', 'docker', 'azure', 'kubernetes']"
-https://jobs.bg/job/5997446,"['php', 'javascript', 'html/css', 'wordpress', 'drupal', 'mysql', 'sql', 'linux']"
-https://jobs.bg/job/5997360,"['python', 'shell scripts', 'docker', 'jenkins', 'aws', 'kubernetes', 'linux', 'windows', 'python', 'shell scripts', 'docker', 'jenkins', 'aws', 'kubernetes', 'linux', 'windows']"
-https://jobs.bg/job/5997366,"['python', 'sql', 'mongodb', 'nosql', 'jira', 'jenkins', 'aws', 'kubernetes']"
-https://jobs.bg/job/5997368,"['node.js', 'java', 'python', 'typescript']"
-https://jobs.bg/job/5997357,"['python', 'java', 'c#', 'angular', 'aws']"
-https://jobs.bg/job/5997262,"['routing', 'linux']"
-https://jobs.bg/job/5997121,"['six sigma', 'perl', 'python', 'shell scripts', 'mysql', 'sql', 'excel', 'aws']"
-https://jobs.bg/job/5996926,"['python', 'jenkins', 'kubernetes', 'aws']"
-https://jobs.bg/job/5996799,"['python', 'sql', 'ms sql', 'aws', 'spark', 'hadoop']"
-https://jobs.bg/job/5996869,"['python', 'shell scripts', 'jenkins', 'docker', 'kubernetes', 'linux', 'python', 'shell scripts', 'jenkins', 'docker', 'kubernetes', 'linux']"
-https://jobs.bg/job/5996859,"['php', 'groovy', 'javascript', 'python', 'shell scripts', 'symfony', 'html/css', 'angular', 'react', 'mysql', 'sql', 'mariadb', 'jenkins', 'linux', 'rabbitmq', 'php', 'groovy', 'javascript', 'python', 'shell scripts', 'symfony', 'html/css', 'angular', 'react', 'mysql', 'sql', 'mariadb', 'jenkins', 'linux', 'rabbitmq']"
-https://jobs.bg/job/5996830,"['javascript', 'php', 'angular', 'jquery', 'html/css', 'react', 'vue.js', 'docker', 'rabbitmq', 'linux']"
-https://jobs.bg/job/5996804,"['python', 'shell scripts', 'php', 'groovy', 'mariadb', 'sql', 'mysql', 'docker', 'jenkins', 'linux', 'rabbitmq', 'python', 'shell scripts', 'php', 'groovy', 'mariadb', 'sql', 'mysql', 'docker', 'jenkins', 'linux', 'rabbitmq']"
-https://jobs.bg/job/5996700,"['swift', 'sql', 'ms sql', 'ibm db2', 'linux', 'windows']"
-https://jobs.bg/job/5996493,"['c/c++', 'java', 'spring', 'windows', 'macos', 'linux']"
-https://jobs.bg/job/5996417,"['c/c++', 'c#', 'python', 'java', 'php']"
+https://jobs.bg/job/6000908	['cisco', 'linux']
+https://jobs.bg/job/6000766	['shell scripts', 'mysql', 'sql', 'ms sql', 'switching', 'routing', 'firewall/waf', 'docker', 'linux', 'windows', 'active directory', 'vmware', 'nginx', 'iis', 'ansible', 'terraform']
+https://jobs.bg/job/6000761	['sql', 'ms sql', 'linux', 'windows']
+https://jobs.bg/job/6000537	['python', 'postgresql', 'sql']
+https://jobs.bg/job/5999522	['c#', 'asp.net', 'entity framework', 'soapui', 'sql', 'ms sql', 'postgresql', 'mysql', 'mongodb', 'nosql', 'redis', 'docker', 'kubernetes', 'nginx', 'linux', 'azure', 'aws']
+https://jobs.bg/job/6000369	['bi', 'python', 'power bi', 'data visualization', 'tableau']
+https://jobs.bg/job/5999900	['python', 'sql']
+https://jobs.bg/job/5999751	['shell scripts', 'python', 'groovy', 'jenkins', 'azure', 'aws', 'linux', 'terraform', 'vmware', 'ansible', 'shell scripts', 'python', 'groovy', 'jenkins', 'azure', 'aws', 'linux', 'terraform', 'vmware', 'ansible']
+https://jobs.bg/job/5999746	['shell scripts', 'python', 'groovy', 'jenkins', 'azure', 'aws', 'linux', 'terraform', 'vmware', 'ansible', 'shell scripts', 'python', 'groovy', 'jenkins', 'azure', 'aws', 'linux', 'terraform', 'vmware', 'ansible']
+https://jobs.bg/job/5999658	['python', 'shell scripts', 'aws', 'terraform']
+https://jobs.bg/job/5986780	['windows', 'linux']
+https://jobs.bg/job/5999124	['crm', 'swift', 'groovy', 'python', 'shell scripts', 'docker', 'jenkins', 'grafana', 'elasticsearch', 'nosql', 'gcp', 'terraform', 'kubernetes']
+https://jobs.bg/job/5979875	['pci dss', 'aws', 'linux', 'windows', 'puppet', 'chef', 'ansible', 'terraform']
+https://jobs.bg/job/5979868	['php', 'shell scripts', 'python', 'drupal', 'symfony', 'laravel', 'magento', 'nosql', 'mongodb', 'redis', 'elasticsearch', 'jenkins', 'docker', 'linux', 'kafka', 'php', 'shell scripts', 'python', 'drupal', 'symfony', 'laravel', 'magento', 'nosql', 'mongodb', 'redis', 'elasticsearch', 'jenkins', 'docker', 'linux', 'kafka']
+https://jobs.bg/job/5998939	['php', 'python', 'shell scripts', 'linux', 'php', 'python', 'shell scripts', 'linux']
+https://jobs.bg/job/5998936	['java', 'javascript', 'python', 'shell scripts', 'jenkins', 'sap', 'azure', 'terraform', 'ansible', 'aws', 'gcp', 'kubernetes']
+https://jobs.bg/job/5998706	['java', 'python', 'golang', 'vue.js', 'sql', 'hadoop', 'spark', 'kafka', 'linux', 'java', 'python', 'golang', 'vue.js', 'sql', 'hadoop', 'spark', 'kafka', 'linux']
+https://jobs.bg/job/5998701	['php', 'javascript', 'python', 'shell scripts', 'c/c++', 'java', 'sql', 'redis', 'nosql', 'docker', 'linux', 'php', 'javascript', 'python', 'shell scripts', 'c/c++', 'java', 'sql', 'redis', 'nosql', 'docker', 'linux']
+https://jobs.bg/job/5998637	['python', 'shell scripts', 'perl', 'javascript', 'angular', 'mysql', 'sql', 'mongodb', 'nosql', 'linux', 'aws', 'python', 'shell scripts', 'perl', 'javascript', 'angular', 'mysql', 'sql', 'mongodb', 'nosql', 'linux', 'aws']
+https://jobs.bg/job/5998578	['shell scripts', 'python', 'php', 'java', 'postgresql', 'sql', 'grafana', 'docker', 'linux', 'kubernetes', 'tomcat', 'shell scripts', 'python', 'php', 'java', 'postgresql', 'sql', 'grafana', 'docker', 'linux', 'kubernetes', 'tomcat']
+https://jobs.bg/job/5998395	['shell scripts', 'python', 'jenkins', 'vmware', 'aws', 'gcp', 'ansible', 'terraform']
+https://jobs.bg/job/5998525	['bi', 'python', 'data visualization', 'sql', 'tableau', 'routing']
+https://jobs.bg/job/5998196	['data visualization', 'python', 'power bi', 'sql', 'tableau']
+https://jobs.bg/job/5981679	['android', 'ios', 'azure', 'linux', 'macos', 'windows', 'active directory']
+https://jobs.bg/job/5998064	['php', 'javascript', 'cakephp', 'html/css', 'mysql', 'linux']
+https://jobs.bg/job/5997762	['java', 'python', 'node.js', 'groovy', '.net', 'spring', 'mysql', 'sql', 'cassandra', 'nosql', 'grafana', 'kafka']
+https://jobs.bg/job/5997681	['python', 'javascript']
+https://jobs.bg/job/5997722	['linux']
+https://jobs.bg/job/5975079	['python', 'c/c++', 'pytorch', 'docker', 'jenkins', 'kubernetes']
+https://jobs.bg/job/5997491	['jenkins', 'docker', 'aws', 'linux', 'vmware', 'kubernetes']
+https://jobs.bg/job/5997485	['python', 'sql', 'jira', 'jenkins']
+https://jobs.bg/job/5997444	['python', 'java', 'javascript', 'typescript', 'django', 'flask', 'angular', 'vue.js', 'react', 'sql', 'nosql', 'docker', 'azure', 'kubernetes']
+https://jobs.bg/job/5997446	['php', 'javascript', 'html/css', 'wordpress', 'drupal', 'mysql', 'sql', 'linux']
+https://jobs.bg/job/5997360	['python', 'shell scripts', 'docker', 'jenkins', 'aws', 'kubernetes', 'linux', 'windows', 'python', 'shell scripts', 'docker', 'jenkins', 'aws', 'kubernetes', 'linux', 'windows']
+https://jobs.bg/job/5997366	['python', 'sql', 'mongodb', 'nosql', 'jira', 'jenkins', 'aws', 'kubernetes']
+https://jobs.bg/job/5997368	['node.js', 'java', 'python', 'typescript']
+https://jobs.bg/job/5997357	['python', 'java', 'c#', 'angular', 'aws']
+https://jobs.bg/job/5997262	['routing', 'linux']
+https://jobs.bg/job/5997121	['six sigma', 'perl', 'python', 'shell scripts', 'mysql', 'sql', 'excel', 'aws']
+https://jobs.bg/job/5996926	['python', 'jenkins', 'kubernetes', 'aws']
+https://jobs.bg/job/5996799	['python', 'sql', 'ms sql', 'aws', 'spark', 'hadoop']
+https://jobs.bg/job/5996869	['python', 'shell scripts', 'jenkins', 'docker', 'kubernetes', 'linux', 'python', 'shell scripts', 'jenkins', 'docker', 'kubernetes', 'linux']
+https://jobs.bg/job/5996859	['php', 'groovy', 'javascript', 'python', 'shell scripts', 'symfony', 'html/css', 'angular', 'react', 'mysql', 'sql', 'mariadb', 'jenkins', 'linux', 'rabbitmq', 'php', 'groovy', 'javascript', 'python', 'shell scripts', 'symfony', 'html/css', 'angular', 'react', 'mysql', 'sql', 'mariadb', 'jenkins', 'linux', 'rabbitmq']
+https://jobs.bg/job/5996830	['javascript', 'php', 'angular', 'jquery', 'html/css', 'react', 'vue.js', 'docker', 'rabbitmq', 'linux']
+https://jobs.bg/job/5996804	['python', 'shell scripts', 'php', 'groovy', 'mariadb', 'sql', 'mysql', 'docker', 'jenkins', 'linux', 'rabbitmq', 'python', 'shell scripts', 'php', 'groovy', 'mariadb', 'sql', 'mysql', 'docker', 'jenkins', 'linux', 'rabbitmq']
+https://jobs.bg/job/5996700	['swift', 'sql', 'ms sql', 'ibm db2', 'linux', 'windows']
+https://jobs.bg/job/5996493	['c/c++', 'java', 'spring', 'windows', 'macos', 'linux']
+https://jobs.bg/job/5996417	['c/c++', 'c#', 'python', 'java', 'php']
