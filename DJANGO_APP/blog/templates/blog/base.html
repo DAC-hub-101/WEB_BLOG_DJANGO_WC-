@@ -1,5 +1,7 @@
 <!-- load css file from media directory -->
 {% load static %}
+<link rel="icon"href="{% static 'favicon.ico' %}">
+<!-- load languages -->
 {% load i18n %}
 
 
@@ -121,13 +123,13 @@
                 </div>
                 <div class="col-md-4">
                   <div class="content-section">
-                    <h3>Our Sidebar</h3>
-                    <p class='text-muted'>You can put any information here you'd like.
+                    <h3>Nav Bar</h3>
+                    <p class='text-muted'>Stay in touch
                       <ul class="list-group">
                         <li class="list-group-item list-group-item-light">{% trans "Latest Posts" %}</li>
                         <li class="list-group-item list-group-item-light">{% trans "Announcements" %}</li>
                         <li class="list-group-item list-group-item-light">{% trans "Calendars" %}</li>
-                        <li class="list-group-item list-group-item-light">{% trans "etc." %}</li>
+                        <li class="list-group-item list-group-item-light">{% trans "Importand info" %}</li>
                       </ul>
                     </p>
                   </div>

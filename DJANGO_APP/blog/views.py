@@ -15,6 +15,7 @@ from .models import Post, Comments
 from .forms import CommentForm
 from django.views.generic import FormView
 from django.views.generic.detail import SingleObjectMixin
+from .models import Item
 
 class PostListView(ListView):
     model = Post
@@ -139,3 +140,7 @@ def home(request):
     context = {'posts': Post.objects.all()}
     return render(request, 'blog/home.html', context)
 
+#Creating a Video Function
+def video(request):
+    obj = Item.objects.all()
+    return render(request, 'blog/about.html',{'obj':obj})

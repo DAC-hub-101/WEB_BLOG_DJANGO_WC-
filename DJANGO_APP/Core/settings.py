@@ -44,7 +44,10 @@ INSTALLED_APPS = [
     'django_extensions',
     'job_posts',
     'scripts',
-    'Web_Crawler_Scraper'
+    'Web_Crawler_Scraper',
+    'embed_video'
+    # 'django-comments_xtd',
+    # 'django-comments',
 ]
 
 MIDDLEWARE = [
@@ -81,7 +84,6 @@ WSGI_APPLICATION = 'Core.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -143,9 +145,12 @@ LANGUAGES = [
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-
+#This setting specifies what url should static files map to .
 STATIC_URL = '/static/'
+#This specifies all the folders on the system where Django should look for static files.
 STATICFILES_DIRS = (str(BASE_DIR.joinpath('static')),)
+# Django requires that STATIC_ROOT be an absolute path to a folder location on the machine.
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
@@ -169,3 +174,15 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 
 SESSION_COOKIE_AGE = 3600
 SESSION_SAVE_EVERY_REQUEST = True
+
+#settings for Django Comments Xtd -see https://django-comments-xtd.readthedocs.io/en/latest/tutorial.html
+# COMMENTS_APP = 'django_comments_xtd'
+#  To help obfuscating comments before they are sent for confirmation.
+# COMMENTS_XTD_SALT = (b"Timendi causa est nescire. "
+#                      b"Aequam memento rebus in arduis servare mentem.")
+
+# Source mail address used for notifications.
+# COMMENTS_XTD_FROM_EMAIL = "webmaster@example.com"
+# Contact mail address to show in messages.
+# COMMENTS_XTD_CONTACT_EMAIL = "helpdesk@example.com"
+# COMMENTS_XTD_MODEL = 'mycomments.models.MyComment'

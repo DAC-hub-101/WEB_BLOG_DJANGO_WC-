@@ -1,6 +1,9 @@
 {% extends "blog/base.html" %}
 {% block content %}
+<!-- loading files from static directory all images, js, css -->
 {% load static %}
+<!--  load the embed_video_tags template tags  -->
+{% load embed_video_tags %}
 <!-- CSS Path -->
 <link rel="stylesheet" href="{% static 'css/about_us.css' %}">
 
@@ -14,7 +17,8 @@
            We are very passionate about Computer science and Python in particular. And think
            everyone should have the opportunity to learn programming if he or she chooses to.
            That's why we have created this website for people to post articles, guides and news
-           about Python and related frameworks and library's.</div>
+           about Python and related frameworks and library's.
+        </div>
       </section>
       <footer>
         <p>
@@ -23,6 +27,12 @@
           by Staff.
         </p>
       </footer>
+          <!--EMBEDING VIDO -->
+        <div>
+        {% for i in obj %}
+                {% video i.video 'small' %}
+        {% endfor %}
+        </div>
     </article>
 {% endblock content %}
 

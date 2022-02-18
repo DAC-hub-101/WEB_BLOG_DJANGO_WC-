@@ -2,8 +2,10 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 from django.urls import reverse
+#Needed for Video Embeding
+from django.db import models
+from embed_video.fields import EmbedVideoField
 
-# Create your models here.
 
 class Post(models.Model):
     title = models.CharField(max_length=100)
@@ -29,3 +31,5 @@ class Comments(models.Model):
         return f'{self.content}{self.user}'
 
 
+class Item(models.Model):
+    video = EmbedVideoField()  # same like models.URLField()
