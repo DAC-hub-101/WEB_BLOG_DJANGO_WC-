@@ -5,6 +5,7 @@
 * There is a Web Scraper for scraping jobs.bg for python related jobs.
 # Before running the application
 Install all modules(packages needed - All required modules for app can be found in "requirements.txt") Database schemas included --> Database schema is in core/settings.py
+-Import tables from Datadump folder into mysql
 # Get help:
 test@gmail.com
 # Creator and maintainer:
